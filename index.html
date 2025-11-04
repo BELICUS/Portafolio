@@ -1,14 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="img/icono.png">
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="img.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio</title>
+  <link rel="stylesheet" href="css.css">
+  <link rel="icon" type="image/x-icon" href="img/icono.png">
+  <script src="javascript.js" defer></script>
+  
 </head>
 <body>
-    <P>Dylan Nuñez este es mi portafolio</P>
-<p>_______________________________________________________________________</p>
+  <div class="wrap">
+    <aside class="aside">
+      <div class="photo">
+        <img src="img/foto.jpg" alt="Dylan Nuñez">
+      </div>
+      <h1>Dylan David Nuñez Noriega</h1>
+      <p class="tag">Estudiante de Ingeniería de Software · Backend en formación</p>
+      <div class="contact">
+        <a href="mailto:dyl2050@gmail.com">✉ dyl2050@gmail.com</a>
+        <a href="tel:+573004986676">📱 +57 300 498 6676</a>
+        <a href="#" id="githubLink">🌐 GitHub</a>
+        <a href="#" id="linkedinLink">🔗 LinkedIn</a>
+      </div>
+
+      <div class="skills">
+        <h3 style="font-size:14px;margin:10px 0 8px">Hard skills</h3>
+        <div class="skill-list">
+          <span class="skill">Lógica de programación</span>
+          <span class="skill">HTML5 & CSS3</span>
+          <span class="skill">Mantenimiento de PC</span>
+          <span class="skill">Ofimática</span>
+          <span class="skill">Git & GitHub</span>
+        </div>
+
+        <h3 style="font-size:14px;margin:14px 0 8px">Soft skills</h3>
+        <div class="skill-list">
+          <span class="skill">Disciplina</span>
+          <span class="skill">Aprendizaje rápido</span>
+          <span class="skill">Trabajo en equipo</span>
+          <span class="skill">Resolución de problemas</span>
+        </div>
+      </div>
+
+    </aside>
+
+    <main class="main">
+      <div class="controls">
+        <!-- Comentado: botón Practicante oculto para usuarios -->
+        <!--<button class="btn" data-view="practicante">Practicante</button>
+        <button class="btn active" data-view="empleado">Empleado Junior</button>-->
+        
+      </div>
+
+  <div id="practicanteView" class="view" style="display:none">
+        <h2>Perfil — Practicante</h2>
+        <p class="section">Soy estudiante de Ingeniería de Software enfocado en aprender y aportar. Busco una práctica profesional donde poner en práctica mis conocimientos en backend, mantenimiento de equipos y ofimática, y desarrollar habilidades reales en proyectos.</p>
+
+        <div class="two-cols">
+          <div class="card">
+            <h3>Objetivo</h3>
+            <p>Entrar a una práctica donde pueda fortalecer mis habilidades técnicas y participar en proyectos reales mientras aprendo de un equipo experimentado.</p>
+          </div>
+          <div class="card">
+            <h3>Experiencia</h3>
+            <p><strong>reserva de salas de reunion</strong><br><br>https://github.com/BELICUS/pro</p>
+            <p style="margin-top:8px"><strong>Buscador de libros</strong><br><br>https://github.com/BELICUS/biblioteca</p>
+          </div>
+        </div>
+
+        <div class="section card" style="margin-top:12px">
+          <h3>Formación & Certificados</h3>
+          <p>Ingeniería de Software (en curso) — Universidad Cooperativa de Colombia. Certificados en Lógica de programación, HTML5/CSS3, Mantenimiento de computadores y Ofimática (SENA, Alura).</p>
+        </div>
+      </div>
+
+  <div id="empleadoView" class="view" style="display:block">
+        <h2>Perfil — Empleado Junior</h2>
+        <p class="section">Desarrollador en formación con enfoque backend y experiencia en mantenimiento de hardware. Busco una posición remunerada donde generar impacto desde el primer mes, aportando soluciones técnicas y documentación clara.</p>
+
+        <div class="two-cols">
+          <div class="card">
+            <h3>Meta profesional</h3>
+            <p>Conseguir mi primer empleo remunerado con un salario objetivo de 500 USD mensuales, aportando valor en tareas de backend, soporte y despliegue básico.</p>
+          </div>
+          <div class="card">
+            <h3>Qué ofrezco</h3>
+            <ul style="margin:0 0 0 18px;color:var(--muted);line-height:1.6">
+              <li>Implementación de pequeñas APIs y servicios backend</li>
+              <li>Mantenimiento y configuración de equipos</li>
+              <li>Documentación técnica y digitalización de procesos</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section card" style="margin-top:12px">
+          <h3>Resultados esperados</h3>
+          <p>Rápida adaptación a flujos de trabajo, entrega de tareas en plazos cortos y comunicación constante con el equipo para mejorar procesos.</p>
+        </div>
+      </div>
+
+      <footer>
+        &copy; 2025 Dylan David Nuñez Noriega. Todos los derechos reservados.
+      </footer>
+    </main>
+  </div>
+
+  
 </body>
 </html>
