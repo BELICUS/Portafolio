@@ -13,5 +13,5 @@
   const gh = document.getElementById('githubLink');
   if (gh) gh.href = 'https://github.com/BELICUS';
   const ln = document.getElementById('linkedinLink');
-  if (ln) ln.href = 'https://www.linkedin.com/in/dylan-nunez/';
+  if (ln) ln.href = 'https://www.linkedin.com/in/dylan-nu%C3%B1ez-0513ba139/';
 
