@@ -40,3 +40,4 @@
     .project-links a{display:inline-block;font-size:13px;color:#8ab4ff;text-decoration:none;
       border:1px solid rgba(255,255,255,0.08);padding:6px 10px;border-radius:8px}
     .project-links a:hover{background:var(--glass);color:#fff}
+    .project code{background:var(--glass);padding:1px 5px;border-radius:4px;font-size:12px}
