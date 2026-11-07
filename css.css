@@ -36,6 +36,7 @@
     .project .year{color:var(--muted);font-size:12px;white-space:nowrap}
     .project p{margin:8px 0 10px;color:var(--muted);line-height:1.55;font-size:14px}
     .project .skill-list{margin-bottom:10px}
+    .project-links{display:flex;flex-wrap:wrap;gap:8px}
     .project-links a{display:inline-block;font-size:13px;color:#8ab4ff;text-decoration:none;
       border:1px solid rgba(255,255,255,0.08);padding:6px 10px;border-radius:8px}
     .project-links a:hover{background:var(--glass);color:#fff}
